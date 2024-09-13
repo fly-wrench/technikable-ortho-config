@@ -55,9 +55,9 @@
         num_layer {
             label = "Num";
             bindings = <
-&trans      &kp LBKT   &kp N7  &kp N8  &kp N9  &kp RBKT          &kp C_PREV  &trans   &kp F9  &kp F10  &kp F11  &kp F12
-&trans      &kp MINUS  &kp N4  &kp N5  &kp N6  &kp EQUAL         &kp C_NEXT  &trans   &kp F5  &kp F6   &kp F7   &kp F8
-&caps_word  &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp BSLH          &trans      &trans   &kp F1  &kp F2   &kp F3   &kp F4
+&trans      &kp LBKT   &kp N7  &kp N8  &kp N9  &kp RBKT          &kp C_PREV  &kp F9   &kp F10  &kp F11  &kp F12  &trans
+&trans      &kp MINUS  &kp N4  &kp N5  &kp N6  &kp EQUAL         &kp C_NEXT  &kp F5   &kp F6   &kp F7   &kp F8   &trans
+&caps_word  &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp BSLH          &trans      &kp F1   &kp F2   &kp F3   &kp F4   &trans
                        &trans  &kp N0  &trans  &none      &none  &kp ESC     &kp DEL  &trans
             >;
         };
